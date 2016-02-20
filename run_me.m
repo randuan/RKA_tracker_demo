@@ -10,9 +10,9 @@
 % been put into benchmark folder (you can download more). The bounding box
 % will be initialized automatically.
 %
-% Regarding to the benchmark test, we do not recommended you use this code
+% Regarding to the benchmark test, we do not recommend you to use this code
 % since it is a simplified version. Please contact me (duanran@ntu.edu.sg)
-% if you need the complete code for algorithm comparison.
+% if you need the benchmark test code for algorithm comparison.
 %
 % Ran DUAN
 % 29-12-2015
