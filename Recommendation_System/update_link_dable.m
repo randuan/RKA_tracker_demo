@@ -21,13 +21,6 @@ if ~isempty(consensusPairs) && ~isempty(outlierPair)
     end
 end
 
-if ~isempty(outlierPair)
-    new_Target_Dictionary.Features(outlierPair(:,1),:) = [];
-    new_Target_Dictionary.Location(outlierPair(:,1),:) = [];
-    new_link_table(outlierPair(:,1),:) = [];
-    new_link_table(:,outlierPair(:,1)) = [];
-end
-
 out = my_voting_system(new_link_table, confidence_weight); % algorithm 2: VotingProcess
 out = out';
 
